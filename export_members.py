@@ -4,7 +4,7 @@ import time
 # Define the group size, id, and your auth tokens
 # Example Group ID: grp_b75c5810-6df2-4f88-9365-41dc30522378
 # See README.MD on how to find group id and auth tokens
-group_size = 1000
+group_size = 1000 # Set to the total number of members in the group
 group_id = "GROUP_ID_HERE"
 cookies = {
     'auth': 'YOUR_AUTH_TOKEN_HERE',
