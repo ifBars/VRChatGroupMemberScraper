@@ -38,7 +38,7 @@ with open("members.txt", "w", encoding="utf-8") as file:
                 display_name = item.get('user', {}).get('displayName')
                 thumbnail_url = item.get('user', {}).get('thumbnailUrl')
                 file.write(f"User ID: {user_id}, Display Name: {display_name}, Thumbnail URL: {thumbnail_url}\n")
-            print(f"Members {offset} through {offset + batch_size} written to members.txt.")
+            print(f"{offset + batch_size} / {group_size} members written to members.txt.")
         else:
             print(f"Request failed with status code: {response.status_code} at offset {offset}")
         # Delay between requests to avoid overwhelming the server
