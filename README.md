@@ -7,6 +7,7 @@ This script uses the VRChat API to export a text file containing every member of
 - [Usage](#usage)
 - [Finding Group ID and Auth Tokens](#finding-group-id-and-auth-tokens)
 - [License](#license)
+- [Example](#example)
 
 ## Installation
 
@@ -64,3 +65,11 @@ cookies = {
     'auth': 'authcookie_9a87b6c5-4321-4f12-8765-abcde12345fg',
     'twoFactorAuth': 'eyJhhGciOnFIUzI1NfAsInR5cCI6IgpXVCJ9.eyJ1c2VjSWQiOiJ1c3JfOWFhYWEyMy00NTYzLTRmMTItODc2NS1hYmNkZTEyMzQ1ZmciLCJtYWNBY2Nlc3MiOiIiLCJ0aW1lc3RhbXAiOjE2MzEyMjM4NjAwNTQsInZlcnNpb24iOjIsImlhdCI6MTYzMTIyMzg2MCwiZXhwIjoxNjMxMjI0MjYwfQ.QwertyUiOpAsDfGhjKlZxCvBnMkQwErTyUiOpAsDfGhjKlZxCvBnMkQwEr'
 }
+
+## Tip
+
+If you are trying to find a specific player in a group
+- Simply Crtl + F their name in the exported file
+- Then copy their User ID
+- Then replace THEIR_USER_ID with the User ID you just copied https://vrchat.com/home/user/THEIR_USER_ID
+- The result should be the link to that specific user's profile
