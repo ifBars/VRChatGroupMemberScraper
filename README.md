@@ -47,8 +47,8 @@ This script uses the VRChat API to export a text file containing every member of
 2. **Finding Auth Tokens**:
     - Go to any VRChat group page and navigate to the members list.
     - Right-click and select `Inspect Element` to open the developer tools.
-    - Go to the `Network` tab, then scroll down the group members list and press the 'Load More Members' button.
-    - In the 'Network' tab, on the left side, look for a network request named `members?n=25&offset=25` with an orange semicolon in brackets icon.
+    - Go to the `Network` tab, then scroll down the group members list and press the `Load More Members` button.
+    - In the `Network` tab, on the left side, look for a network request named `members?n=25&offset=25` with an orange semicolon in brackets icon.
     - Click on it and find the `Cookies` section on the right panel.
     - Copy the `auth` token and `twoFactorAuth` token from the cookies section into your script.
 
