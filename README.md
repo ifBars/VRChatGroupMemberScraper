@@ -6,7 +6,7 @@ This script uses the VRChat API to export a text file containing every member of
 - [Installation](#installation)
 - [Usage](#usage)
 - [Finding Group ID and Auth Tokens](#finding-group-id-and-auth-tokens)
-- [License](#license)
+- [License](LICENSE)
 - [Example](#example)
 
 ## Installation
