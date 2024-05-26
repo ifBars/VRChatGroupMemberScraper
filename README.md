@@ -60,7 +60,7 @@ This script uses the VRChat API to export a text file containing every member of
 Here's an example of how to set up the script:
 ```python
 group_size = 16234  # Total number of members in the group
-group_id = "b75c5810-6df2-4f88-9365-41dc30522378"
+group_id = "grp_b75c5810-6df2-4f88-9365-41dc30522378"
 cookies = {
     'auth': 'authcookie_9a87b6c5-4321-4f12-8765-abcde12345fg',
     'twoFactorAuth': 'eyJhhGciOnFIUzI1NfAsInR5cCI6IgpXVCJ9.eyJ1c2VjSWQiOiJ1c3JfOWFhYWEyMy00NTYzLTRmMTItODc2NS1hYmNkZTEyMzQ1ZmciLCJtYWNBY2Nlc3MiOiIiLCJ0aW1lc3RhbXAiOjE2MzEyMjM4NjAwNTQsInZlcnNpb24iOjIsImlhdCI6MTYzMTIyMzg2MCwiZXhwIjoxNjMxMjI0MjYwfQ.QwertyUiOpAsDfGhjKlZxCvBnMkQwErTyUiOpAsDfGhjKlZxCvBnMkQwEr'
