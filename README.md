@@ -1,4 +1,4 @@
-# VRChat Group Member Exporter
+# VRChat Group Member Scraper
 
 This script uses the VRChat API to export a text file containing every member of a specified VRChat group.
 
